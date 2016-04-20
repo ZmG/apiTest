@@ -1,0 +1,28 @@
+<?php
+$this->headMeta()->appendHttpEquiv('Content-Type', 'text/html; charset=utf-8');
+$this->headTitle()->setSeparator('-');
+$this->headTitle('AES Management');
+
+echo $this->doctype(); ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <?  $basePath = ((Core_Utils::is_https() == false)?'http':'https') . '://' . $_SERVER['SERVER_NAME'] . $this->baseUrl(); ?>
+        <?php echo $this->headMeta(); ?>
+        <?php echo $this->headTitle(); ?>
+        <?php echo $this->headLink(); ?>
+        <script src="../public/css/lib/foundation/js/vendor/custom.modernizr.js"></script>
+        <!-- JAVASCIPTS -->
+        <script src="../css/lib/foundation/bower_componentsnot_used/modernizr/modernizr.js"></script>
+
+
+
+    </head>
+    <body>
+        <div id="content">
+            <h1><?php echo $this->escape($this->title); ?></h1>
+            <?php echo $this->layout()->content; ?>
+        </div>
+
+    </body>
+</html>

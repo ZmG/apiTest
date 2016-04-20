@@ -1,0 +1,179 @@
+
+
+body {
+    background-color: /*#DFE8F3*/#E9ECFD;
+    text-align: center;
+}
+/*
+div#content {
+    margin: auto;
+    width: 1000px;
+    background-color: #E9ECFD;
+}*/
+
+
+#students_table span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.box a{
+    color: /*#F0FFFF*/#646D7E;
+    text-decoration: underline;
+}
+
+.box a:hover {
+    color: #000624;
+    text-decoration: underline;
+}
+
+a {
+    color: #000624;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/*   Table Scroll   */
+
+#table-wrapper {
+    position:relative;
+}
+#table-scroll {
+    max-width:835px;
+    overflow:auto;
+    margin-top:20px;
+}
+#table-wrapper table {
+    width:100%;
+
+}
+
+#table-wrapper table thead th .text {
+    position:absolute;
+    top:-20px;
+    z-index:2;
+    height:20px;
+    width:35%;
+    border:1px solid red;
+}
+
+#staff_dashboard_table td {
+    font-weight: normal;
+}
+
+
+
+/*td {
+    border-bottom: 1px solid #aec08b;
+    padding-bottom: 10px;
+    padding-right: 28px;
+    padding-top: 10px;
+}*/
+/* style form */
+form dt {
+    width: 100px;
+    display: block;
+    float: left;
+    clear: left;
+}
+form dd {
+    margin-left: 0;
+    float: left;
+}
+form #submitbutton {
+    margin-left: 100px;
+}
+
+
+/* Register Form */
+.formList {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.formLabel {
+    float: left;
+    margin: 0 3px 5px 0;
+}
+
+.form {
+    background-color: /*#A2C25#79973F*/#646D7E;
+    border: 1px solid #79973F;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 35px 10px 0;
+    width: 230px;
+    float: left;
+    margin: 80px 0 0 580px;
+
+}
+
+
+
+
+.errors {
+    background-color: #EEB4B4;
+    border: 1px solid #781616;
+    border-radius: 3px;
+    color: #781616;
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+}
+
+/*div#loginPage {
+    background-image: url("../img/uni.png");
+    width: 1000px;
+    height: 500px;
+}*/
+
+
+
+table tr:nth-child(even) { /*(even) or (2n 0)*/
+    background-color: /*#C9D0DA*/#FAFAFA;
+}
+table tr:nth-child(odd) { /*(odd) or (2n 1)*/
+    background-color: /*#D3D5D8*/#F1F4F7;
+}
+
+div#list_students {
+    float: left;
+    margin: 10px 30px 0 10px;
+    max-width: 1160px;
+    overflow: scroll;
+    /*  width: 1000px;*/
+    /*border: 5px inset #FFFFFF;
+    border-radius: 5px;*/
+    padding: 5px 20px 5px 20px;
+}
+
+/*div#nav {
+    float: left;
+    margin-top: 20px;
+    width: 160px;
+}*/
+
+table#table_nav td{
+    background: url('../img/bg_blue.png') repeat;
+    color: #FFFFFF;
+    height: 30px;
+}
+
+.selected {
+    background: url('../img/selected.png') repeat!important;
+    color: #FFFFFF;
+}
+
+table#table_nav {
+    width: 100%;
+}
+
+h1#greenwich {
+    font-size: 26px;
+    text-align: center;
+}
+
+
+

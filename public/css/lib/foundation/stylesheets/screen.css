@@ -1,0 +1,51 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 9, ../sass/screen.scss */
+body {
+  background: #FDF3E7;
+  color: #6e6e6e;
+}
+
+/* line 14, ../sass/screen.scss */
+h2, a {
+  color: #C63D0F;
+}
+
+/* line 18, ../sass/screen.scss */
+.login-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 100px 0;
+  padding: 40px 20px 0 20px;
+}
+
+/* line 26, ../sass/screen.scss */
+.dashboard_icon {
+  border: 2px solid #6e6e6e;
+  border-radius: 5px;
+  height: 105px;
+  background-color: #ffffff;
+  margin: 5px -10px;
+}
+
+/* line 34, ../sass/screen.scss */
+.dashboard_icon img {
+  margin: 15px 10px 0;
+}
+
+/* line 38, ../sass/screen.scss */
+nav {
+  margin-bottom: 50px !important;
+}
+
+/* line 42, ../sass/screen.scss */
+table {
+  margin: 0 auto;
+}
+
+/* line 46, ../sass/screen.scss */
+.top-bar, .top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: #474747 !important;
+}
